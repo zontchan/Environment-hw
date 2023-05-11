@@ -1,0 +1,44 @@
+{
+  "name": "environment-hw",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel C:\\web\\Environment-hw -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zontchan/Environment-hw.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "zontchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zontchan/Environment-hw/issues"
+  },
+  "homepage": "https://github.com/zontchan/Environment-hw#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  },
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
+}
